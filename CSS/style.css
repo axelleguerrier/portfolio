@@ -1,0 +1,158 @@
+﻿body {
+    margin: 0;
+    background: #100D18;
+    color: #E8E2F0;
+    font-family: "Syne", "Segoe UI", system-ui, sans-serif;
+    line-height: 1.6;
+}
+
+/* Le a definit la couleur de tous les liens. */
+a {
+    color: #C4B5FD;
+}
+
+/* Menu */
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 18px 6%;
+    background: #191426;
+}
+
+.nom {
+    color: #A78BFA;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style les liens du menu uniquement. */
+.menu a {
+    display: block;
+    padding: 8px 10px;
+    color: #D8D1E6;
+    text-decoration: none;
+}
+
+/* indique la page actuellement ouverte. */
+.actif {
+    background: #302342;
+    color: #EDE7F6;
+}
+
+/* titres et introduction */
+.surtitre, .grand-titre, .intro, .boutons, .colonnes,
+.cartes, .titre-tableau, .coordonnees, .pied {
+    width: 88%;
+    max-width: 1050px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.surtitre {
+    margin-top: 48px;
+    color: #C4B5FD;
+    font-weight: bold;
+}
+
+.grand-titre {
+    margin-top: 0;
+    font-family: "Syne", "Segoe UI", system-ui, sans-serif;
+    font-size: 42px;
+}
+
+.intro {
+    max-width: 760px;
+    font-size: 17px;
+}
+
+/* Boutons */
+.bouton {
+    display: inline-block;
+    margin: 4px 8px 4px 0;
+    padding: 10px 16px;
+    background: #7C3AED;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.bouton.secondaire {
+    background: #241C32;
+    color: #D8CCF5;
+}
+
+/* Tableaux et cartes */
+.colonnes {
+    border-spacing: 18px 0;
+}
+
+.carte {
+    padding: 24px;
+    background: #1B1627;
+    border: 1px solid #382D4A;
+    vertical-align: top;
+}
+
+h1, h2 {
+    font-family: "Syne", "Segoe UI", system-ui, sans-serif;
+}
+
+.parcours {
+    padding-left: 20px;
+}
+
+.parcours li {
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #382D4A;
+}
+
+.cartes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    border-top: 4px solid #8B5CF6;
+    margin-top: 28px;
+    margin-bottom: 48px;
+    padding: 0;
+    list-style: none;
+}
+
+.date {
+    color: #C4B5FD;
+    font-weight: bold;
+}
+
+.coordonnees {
+    border-collapse: collapse;
+    margin-bottom: 48px;
+    background: #1B1627;
+}
+
+.coordonnees th, .coordonnees td {
+    padding: 16px;
+    border: 1px solid #382D4A;
+    text-align: left;
+}
+
+.coordonnees th {
+    background: #5B21B6;
+    color: #FFFFFF;
+}
+
+.pied {
+    padding: 18px 0;
+    border-top: 1px solid #382D4A;
+    color: #B9A9D1;
+}
